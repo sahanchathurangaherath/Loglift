@@ -24,7 +24,7 @@ func main() {
 	for {
 		rec := logtypes.LogRecord{
 			Timestamp: time.Now().UTC().Format(time.RFC3339),
-			Service:   "svc-a",
+			Service:   "svc-c",
 			Level:     "INFO",
 			Message:   messages[rand.Intn(len(messages))],
 		}
